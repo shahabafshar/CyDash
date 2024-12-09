@@ -2,6 +2,8 @@
 
 Welcome to CyDash, an interactive dashboard designed to analyze and visualize cybersecurity events. CyDash enables security researchers, analysts, and organizations to explore trends, correlations, and insights using an intuitive, filterable interface. The dashboard is powered by Python, Dash, and Plotly, making it both powerful and extensible.
 
+[![CyDash Intro Video](https://img.youtube.com/vi/Q4djFfN35mA/0.jpg)](https://youtu.be/Q4djFfN35mA)
+
 ---
 
 ## **Features**
