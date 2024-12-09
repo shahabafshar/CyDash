@@ -1,0 +1,25 @@
+{
+    "filters": [
+        {"id": "year-filter", "label": "Select Year:", "column": "year", "placeholder": "All Years"},
+        {"id": "month-filter", "label": "Select Month:", "column": "month", "placeholder": "All Months"},
+        {"id": "actor-type-filter", "label": "Select Actor Type:", "column": "actor_type", "placeholder": "All Actor Types"},
+        {"id": "industry-filter", "label": "Select Industry:", "column": "industry", "placeholder": "All Industries"},
+        {"id": "motive-filter", "label": "Select Motive:", "column": "motive", "placeholder": "All Motives"},
+        {"id": "event-type-filter", "label": "Select Event Type:", "column": "event_type", "placeholder": "All Event Types"},
+        {"id": "event-subtype-filter", "label": "Select Event Subtype:", "column": "event_subtype", "placeholder": "All Event Subtypes"},
+        {"id": "country-filter", "label": "Select Country:", "column": "country", "placeholder": "All Countries"},
+        {"id": "actor-country-filter", "label": "Select Actor Country:", "column": "actor_country", "placeholder": "All Actor Countries"}
+    ]
+,
+    "visualizations": [
+        {"id": "events-by-year", "type": "bar", "title": "Event Frequency by Year", "x": "year", "y": "count", "width": 6},
+        {"id": "actor-types-distribution", "type": "pie", "title": "Actor Types Distribution", "names": "actor_type", "values": "count", "width": 6},
+        {"id": "top-industries", "type": "horizontal_bar", "title": "Top 10 Targeted Industries", "column": "industry", "orientation": "h", "width": 12},
+        {"id": "actor-industry-heatmap", "type": "heatmap", "title": "Actor Type vs Targeted Industry", "x": "actor_type", "y": "industry", "width": 12},
+        {"id": "events-trend", "type": "line", "title": "Cybersecurity Events Trend", "x": "event_date", "y": "count", "width": 12},
+        {"id": "attack-types", "type": "stacked_bar", "title": "Attack Types by Actor Type", "x": "event_type", "y": "count", "color": "actor_type", "width": 12},
+        {"id": "geographic-attack", "type": "choropleth2", "title": "Geographic Source of Cyberattacks", "location": "actor_country", "x": "count", "width": 12},
+        {"id": "geographic-impact", "type": "choropleth2", "title": "Geographic Impact of Cyberattacks", "location": "country", "x": "count", "width": 12},
+        {"id": "industry-insights", "type": "pie", "title": "Industries Targeted by Severity", "names": "industry", "values": "count", "width": 12}
+    ]
+}
