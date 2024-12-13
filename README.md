@@ -149,6 +149,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ## **Acknowledgments**
 
 Special thanks to:
+- Professor [Jacobson](https://www.engineering.iastate.edu/people/profile/dougj/) for his support and knowledgable course CprE 5300
 - [CISSM](https://cissm.umd.edu/) for providing the data.
 - The Dash and Plotly communities for their powerful tools and libraries.
 
